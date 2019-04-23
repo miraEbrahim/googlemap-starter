@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/miraEbrahim/googleMaps-HTMLStarter/issues"
   },
-  "homepage": "https://github.com/miraEbrahim/googleMaps-HTMLStarter#readme"
+  "homepage": "https://github.com/miraEbrahim/googleMaps-HTMLStarter#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
