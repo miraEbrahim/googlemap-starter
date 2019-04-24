@@ -1,0 +1,12 @@
+<div className="off-canvas">
+          <input id="hamburger" type='checkbox' className="hamburger-checkbox" />
+          <label className="hamburger" tabIndex="1" htmlFor="hamburger" role="button" aria-label="toggle-bars"><FontAwesomeIcon icon="bars"/></label>
+          <nav id="list-toggle" role="list" className="sidebar" onClick={this.toggleList}>
+            <div className="list-view">
+              <ListView cafes={this.state.cafes} clickedMarker={this.clickedMarker} filterMarker={this.filterMarker}  />
+            </div>
+            <div>
+              <h2 className="price-power"> Pricing By: </h2>
+              <p className="fa-p"><FontAwesomeIcon icon={['fab', 'foursquare']}/></p>
+            </div>
+          </nav>

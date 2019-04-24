@@ -1,0 +1,134 @@
+/***-  General  Styles  --***/
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/***-- Header Styles --***/
+
+.app-header {
+  background-color: #ce255e;
+  height: 60px;
+  padding: 5px;
+}
+
+.header-title {
+  font-size: 1.75em;
+  color: #fff;
+}
+
+/***-- Off-Canvas Styles --***/
+
+/***
+Pure CSS off-canvas menu with flexbox 
+inspired by https://codepen.io/MadeByMike/pen/GcLxm 
+***/
+
+.off-canvas {
+  display: flex;
+  max-height: 100vh;
+}
+
+/* Hamburger Menu Styles */
+.hamburger-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+
+.hamburger {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  display: block;
+  width: 42px;
+  height: 42px;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hamburger-checkbox:checked ~ .sidebar {
+  flex-shrink: 1;
+  padding-top: 1.5em;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  flex: 1 500 auto;
+  overflow: hidden;
+  background: #444;
+  transition: all .5s;
+}
+
+.sidebar h6 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+} 
+
+.sidebar h6:hover {
+  color: #ce255e;
+}
+
+.sidebar p {
+  color: #fff;
+}
+
+.fa-span {
+  color: #ce255e;
+}
+
+.fa-p{
+  font-size: 42px;
+}
+
+.price-power{
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ce255e;
+}
+/* Map Body Styles */
+
+#map {
+  height: 100vh;
+}
+.map-body {
+  flex: 1 1 100%;
+  transition: all .3s;
+}
+
+.search-cafes{
+  border: 4px solid #ce255e;
+  width: 100%;
+  padding: 0;
+  margin: 0; 
+}
+/***-- Footer Styles --***/
+
+.app-footer {
+  background-color: #ce255e;
+  height: 46px;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.footer-title {
+  font-size: 1em;
+  color: #fff;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .header-title {
+    font-size: 0.85em;
+    padding-top: 15px;
+  }
+}

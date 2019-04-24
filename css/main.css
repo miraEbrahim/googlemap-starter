@@ -5,30 +5,32 @@ body {
     margin: 0;
     padding: 0;
 }
-.container {
+.row,
+.container-fluid {
     height: 100%;
     position: relative;
   }
-  input {
+
+input {
     font-size: 12px;
-  }
+}
   h1 {
     color: #525454;
     font-size: 22px;
     margin: 0 0 10px 0;
     text-align: center;
   }
-  #hide-places,
+  /* #hide-places,
   #show-places {
     width: 20%;
-  }
+  } */
   #map {
     bottom:0px;
     height: 100%;
     left: 362px;
     position: absolute;
     right: 0px;
-  }
+  /* }
   .options-box {
     background: #fff;
     border: 1px solid #999;
@@ -38,11 +40,11 @@ body {
     padding: 10px 10px 30px 10px;
     text-align: left;
     width: 340px;
-  }
-
+  } */
+/* 
   h1 {
     color: #525454;
     font-size: 22px;
     margin: 0 0 10px 0;
     text-align: center;
-  }
+  } */
