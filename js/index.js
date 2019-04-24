@@ -114,10 +114,11 @@ function initMap() {
     // The following group uses the location array to create an array of markers on initialize.
     for (var i = 0; i < locations.length; i++) {
       // Get the position from the location array.
-      let position = locations[i].location;
-      let title = locations[i].title;
+      var position = locations[i].location;
+      var title = locations[i].title;
       // Create a marker per location, and put into markers array.
       var marker = new google.maps.Marker({
+        map: map,//shows markers on load
         position: position,
         title: title,
         animation: google.maps.Animation.DROP,
