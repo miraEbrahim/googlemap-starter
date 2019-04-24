@@ -1,7 +1,0 @@
-#map {
-    height: 100vh;
-}
-.map-body {
-    flex: 1 1 100%;
-    transition: all .3s;
-}
