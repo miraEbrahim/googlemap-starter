@@ -1,1 +1,0 @@
-export API_KEY = "AIzaSyAKbcU2ELhCtETjAhxAZA_QWC_kjsQUMxc";
